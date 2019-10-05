@@ -6,7 +6,7 @@ body {
 }
 form { 
 	background: #000; 
-	padding: 3px; 
+	padding: 2.5px; 
 	position: fixed; 
 	bottom: 0; 
 	width: 100%; 
@@ -18,7 +18,7 @@ form input {
 	margin-right: .5%; 
 }
 form button { 
-	width: 9%; 
+	width: 10%; 
 	background: rgb(130, 224, 255); 
 	border: none; 
 	padding: 10px; 
@@ -27,7 +27,8 @@ form button {
 	list-style-type: none; 
 	margin: 0; 
 	padding: 0; 
-	margin-bottom: 40px;
+	margin-bottom: 110px;
+	overflow: auto;
 }
 #messages li { 
 	padding: 5px 10px; 
